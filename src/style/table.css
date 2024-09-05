@@ -1,0 +1,70 @@
+.table-container {
+    width: 90%;
+    margin: 20px auto;
+  }
+  
+  .crypto-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .table-row {
+    display: flex; /* Use flexbox for better alignment */
+    align-items: center; /* Vertically center the content */
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .table-header {
+    padding: 12px 15px;
+    background-color: #f4f4f4;
+    font-weight: bold;
+    font-size: 14px;
+    text-align: left;
+    border-bottom: 2px solid #ddd;
+    display: flex;
+  }
+  
+  .table-cell {
+    flex: 1; /* Each cell will take up equal space */
+    padding: 12px 15px;
+    text-align: left;
+  }
+  
+  .table-cell:first-child {
+    text-align: left; /* Left align the first column (names) */
+    display: flex;
+    align-items: center; /* Align icon and text */
+  }
+  
+  .crypto-image {
+    width: 32px;
+    height: 32px;
+    margin-right: 10px; /* Add spacing between the image and name */
+  }
+  
+  .positive {
+    color: green;
+    font-weight: bold;
+  }
+  
+  .negative {
+    color: red;
+    font-weight: bold;
+  }
+  
+  .sort-button {
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: #f4f4f4;
+    border: 1px solid #ddd;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .sort-button:hover {
+    background-color: #e2e2e2;
+  }
+  
